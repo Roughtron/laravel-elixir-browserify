@@ -5,8 +5,8 @@
   "main": "browserify.js",
   "dependencies": {
     "@babel/core": "^7.4.4",
-    "@babel/plugin-transform-flow-strip-types": "*",
     "@babel/preset-env": "^7.4.4",
+    "@babel/preset-flow": "^7.0.0",
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
     "gulp": "^3.9.1",
