@@ -146,7 +146,7 @@ function loadConfig() {
 
                 // https://www.npmjs.com/package/gulp-babel#babel-options
                 options: {
-                    presets: ['@babel/env', '@babel/plugin-transform-flow-strip-types']
+                    presets: ['@babel/env', '@babel/preset-flow']
                 }
             },
 
