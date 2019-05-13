@@ -146,7 +146,7 @@ function loadConfig() {
 
                 // https://www.npmjs.com/package/gulp-babel#babel-options
                 options: {
-                    presets: ['@babel/env']
+                    presets: ['@babel/env', '@babel/preset-react']
                 }
             },
 
